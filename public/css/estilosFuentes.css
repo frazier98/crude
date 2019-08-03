@@ -1,0 +1,36 @@
+@font-face{
+	font-family: Gotham-Black;
+	src: url(../fonts/fontsInicio/Gotham-Black.otf);
+}
+@font-face{
+	font-family: ANTQUABI;
+	src: url(../fonts/fontsInicio/ANTQUABI.TTF);
+}
+@font-face{
+	font-family: Gotham-Bold;
+	src: url(../fonts/fontsInicio/Gotham-Bold.otf);
+}
+@font-face{
+	font-family: Gotham-Book;
+	src: url(../fonts/fontsInicio/Gotham-Book.otf);
+}
+@font-face{
+	font-family: Gotham-BookIta;
+	src: url(../fonts/fontsInicio/Gotham-BookIta.otf);
+}
+@font-face{
+	font-family: Gotham-Light;
+	src: url(../fonts/fontsInicio/Gotham-Light.otf);
+}
+@font-face{
+	font-family: Gotham-Medium;
+	src: url(../fonts/fontsInicio/Gotham-Medium.otf);
+}
+@font-face{
+	font-family: Gotham-MediumIta;
+	src: url(../fonts/fontsInicio/Gotham-MediumIta.otf);
+}
+@font-face{
+	font-family: Roboto-LightItalic;
+	src: url(../fonts/fontsInicio/Roboto-LightItalic.ttf);
+}

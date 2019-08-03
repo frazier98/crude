@@ -1,0 +1,131 @@
+
+		.navInicio ul li, .porcentajeInicio p, 
+		.indicadoresInicio p, .txtAnio p, 
+		.tituloNoticiaMin, .event-list .month{
+			font-family: 'Gotham-Medium';
+		}
+		.navInicio ul li.active{
+			font-family: 'Gotham-Bold';
+			border-bottom-style: solid;
+			border-bottom-color: #00933F;
+			border-bottom-width: 5px;
+		}
+		.carousel-caption h3{
+			font-family: 'ANTQUABI';
+		}
+		.subAutor{
+			font-family: 'Gotham-Book';
+		}
+		.abajoNoticiaMin, .footer{
+			font-family: 'Gotham-BookIta';
+		}
+		.abajoNoticia{
+			font-family: 'Roboto-LightItalic';
+		}
+		.leerMas{
+			font-family: 'Gotham-MediumIta';
+		}
+		.carousel-caption h1, 
+		.titulo, .txtAnio h3, 
+		.txtMes h1, .tituloNoticia,
+		.event-list .day,
+		.event-list .info{
+			font-family: 'Gotham-Bold';
+		}
+		.event-list .info{
+			font-size: 1%;
+		}
+		.porcentajeInicio h1, .indicadoresInicio h3{
+			font-family: 'Gotham-Black';
+		}
+
+		.txtNosotros, .txtNoticia{
+			font-family: 'Gotham-Light';
+			color: #4A4A4A;
+		}
+		
+		@media only screen and (max-width: 500px) {
+
+			.container,.container-fluid{
+				height: auto;
+			}
+
+		}
+
+		.navbar-default{
+			background-color: #FFFFFF;
+	     border-color: #FFFFFF;
+		}
+		/*CALENDARIO ESTILOS*/
+			.monthly {
+				box-shadow: 0 13px 40px rgba(0, 0, 0, 0.5);
+				font-size: 0.8em;
+			}
+
+			input[type="text"] {
+				padding: 15px;
+				border-radius: 2px;
+				font-size: 16px;
+				outline: none;
+				border: 2px solid rgba(255, 255, 255, 0.5);
+				background: rgba(63, 78, 100, 0.27);
+				color: #fff;
+				width: 250px;
+				box-sizing: border-box;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+			}
+			input[type="text"]:hover {
+				border: 2px solid rgba(255, 255, 255, 0.7);
+			}
+			input[type="text"]:focus {
+				border: 2px solid rgba(255, 255, 255, 1);
+				background:#eee;
+				color:#222;
+			}
+
+			.button {
+				display: inline-block;
+				padding: 15px 25px;
+				margin: 25px 0 75px 0;
+				border-radius: 3px;
+				color: #fff;
+				background: #000;
+				letter-spacing: .4em;
+				text-decoration: none;
+				font-size: 13px;
+			}
+			.button:hover {
+				background: #3b587a;
+			}
+			.desc {
+				max-width: 250px;
+				text-align: left;
+				font-size:14px;
+				padding-top:30px;
+				line-height: 1.4em;
+			}
+			.resize {
+				background: #222;
+				display: inline-block;
+				padding: 6px 15px;
+				border-radius: 22px;
+				font-size: 13px;
+			}
+			@media (max-height: 700px) {
+				.sticky {
+					position: relative;
+				}
+			}
+			@media (max-width: 600px) {
+				.resize {
+					display: none;
+				}
+			}
+			.encuesta{
+				position: fixed;
+				z-index: 50;
+				top: 90px;
+				right: 0px;
+				
+
+			}
